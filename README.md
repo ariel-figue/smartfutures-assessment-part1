@@ -128,13 +128,10 @@ smartfutures-assessment/
 
 ## Submission Details
 
-- **Git Repository**: [Insert URL if applicable]
-- **Zip Upload**: [Insert link if applicable]
+- **Git Repository**: [[GIT URL]](https://github.com/ariel-figue/smartfutures-assessment-part1)
 - **.gitignore**: Excludes `node_modules`, `build`, and other generated files.
 
 ## Assessment Context
 
 This project fulfills Parts 1 and 2 of the Smart Futures assessment.
-
-For questions, contact Smart Futures at info@smartfutures.org.
 
