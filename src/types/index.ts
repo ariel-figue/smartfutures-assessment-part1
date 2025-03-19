@@ -1,7 +1,7 @@
 export interface User {
     name: string;
     email: string;
-    profilePicture: string;
+    avatarUrl: string;
   }
   
   export interface UsersResponseData {

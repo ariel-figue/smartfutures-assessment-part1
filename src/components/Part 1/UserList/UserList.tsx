@@ -12,7 +12,7 @@ const GET_USERS = gql`
       users {
         name
         email
-        profilePicture
+        avatarUrl
       }
       totalUsers
       totalPages

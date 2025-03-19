@@ -8,7 +8,7 @@ const typeDefs = `#graphql
   type User {
     name: String!
     email: String!
-    profilePicture: String!
+    avatarUrl: String!
   }
 
   type UsersResponse {
@@ -32,63 +32,63 @@ const resolvers = {
         {
           name: "Ariel Figueroa",
           email: "contact@ariel-figueroa.com",
-          profilePicture: "./user1.png",
+          avatarUrl: "./user1.png",
         },
         {
           name: "John Doe",
           email: "john.doe@example.com",
-          profilePicture: "./user2.png",
+          avatarUrl: "./user2.png",
         },
         {
           name: "Jane Smith",
           email: "jane.smith@example.com",
-          profilePicture: "./user3.png",
+          avatarUrl: "./user3.png",
         },
         {
           name: "Alice Brown",
           email: "alice.brown@example.com",
-          profilePicture: "./user4.png",
+          avatarUrl: "./user4.png",
         },
         {
           name: "Bob Johnson",
           email: "bob.johnson@example.com",
-          profilePicture: "./user5.png",
+          avatarUrl: "./user5.png",
         },
         {
           name: "Charlie Davis",
           email: "charlie.davis@example.com",
-          profilePicture: "./user6.png",
+          avatarUrl: "./user6.png",
         },
         // New users added below
         {
           name: "Maya Patel",
           email: "maya.patel@example.com",
-          profilePicture: "./user7.png",
+          avatarUrl: "./user7.png",
         },
         {
           name: "Liam Carter",
           email: "liam.carter@example.com",
-          profilePicture: "./user8.png",
+          avatarUrl: "./user8.png",
         },
         {
           name: "Sofia Nguyen",
           email: "sofia.nguyen@example.com",
-          profilePicture: "./user9.png",
+          avatarUrl: "./user9.png",
         },
         {
           name: "Ethan Brooks",
           email: "ethan.brooks@example.com",
-          profilePicture: "./user10.png",
+          avatarUrl: "./user10.png",
         },
         {
           name: "Olivia Kim",
           email: "olivia.kim@example.com",
-          profilePicture: "./user11.png",
+          avatarUrl: "./user11.png",
         },
         {
           name: "Noah Ali",
           email: "noah.ali@example.com",
-          profilePicture: "./user12.png",
+          avatarUrl: "./user12.png",
         },
       ];
 

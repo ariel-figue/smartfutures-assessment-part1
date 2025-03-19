@@ -34,7 +34,7 @@ const UserCard: React.FC<UserCardProps> = ({ user, isLoading = false }) => {
     <div className="border rounded-lg shadow-md m-2 p-4 w-64 h-[250px] bg-white transition-all duration-300">
       <div className="w-full flex justify-center items-center">
         <img
-          src={user.profilePicture}
+          src={user.avatarUrl}
           alt={`${user.name}'s profile`}
           className="w-16 h-16 rounded-full object-cover mb-4 text-xs"
         />
